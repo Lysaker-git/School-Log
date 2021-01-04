@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: #0A0101;
+}
+
+header {
+  background-image: url(assets/Header-Background.jpg);
+  background-size: cover;
+}
+
+header .Header-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding: 12rem 36rem;
+}
+
+header .Header-cont h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  color: #77EB86;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 82px;
+}
+
+header .Header-cont h4 {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  color: #77EB86;
+  font-family: lato;
+  bottom: 12rem;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: #000000;
+}
+
+main {
+  width: 60%;
+  padding: 260px 108px 780px 0;
+}
+/*# sourceMappingURL=main.css.map */
