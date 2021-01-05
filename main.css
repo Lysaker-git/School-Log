@@ -110,6 +110,23 @@ main .card {
   font-family: lato;
 }
 
+main .card .mini-headr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 26px;
+  position: relative;
+}
+
+main .card .mini-headr::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 30%;
+  bottom: 0;
+  background-color: #77EB86;
+}
+
 main .card h2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -117,15 +134,51 @@ main .card h2 {
   position: relative;
   z-index: 1;
   font-weight: 300;
+  font-size: 46px;
 }
 
 main .card h2::after {
-  content: 'HEADER';
+  content: 'MY FIRST POST';
   position: absolute;
   z-index: 0;
   font-size: 102px;
-  bottom: -17px;
-  left: -9px;
+  bottom: -13px;
+  left: -7px;
   color: rgba(119, 235, 134, 0.1);
+}
+
+main .card p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-size: 22px;
+}
+
+main .card hr.clr {
+  border-top: 2px solid #77EB86;
+}
+
+main .card button {
+  border-radius: 20px;
+  width: 152px;
+  height: 60px;
+  border: 2px solid #77EB86;
+  background: none;
+  color: #77EB86;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  height: 120px;
+  margin-top: 108px;
+}
+
+footer p {
+  font-family: lato;
+  color: #77EB86;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */
