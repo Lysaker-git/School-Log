@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #0A0101;
+  background: #140401;
 }
 
 header {
@@ -95,12 +95,23 @@ nav img {
 }
 
 nav a {
+  position: relative;
   margin-top: -5px;
   text-decoration: none;
   color: #77EB86;
   font-size: 22px;
   font-family: 'Lato', sans-serif;
   margin-right: 40px;
+}
+
+nav .active_pg::after {
+  content: '';
+  position: absolute;
+  background-color: #77EB86;
+  height: 7px;
+  width: 145%;
+  bottom: -25px;
+  left: -26px;
 }
 
 nav .search_btn {
